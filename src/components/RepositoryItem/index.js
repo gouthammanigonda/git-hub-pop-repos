@@ -10,7 +10,7 @@ class RepositoryItem extends Component {
     return (
       <li className="list-item">
         <img src={avatarUrl} className="avatar-img" alt={name} />
-        <p className="name-heading">{name}</p>
+        <h1 className="name-heading">{name}</h1>
         <div className="icon-container">
           <div>
             <img
